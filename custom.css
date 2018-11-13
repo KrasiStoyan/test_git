@@ -1,0 +1,102 @@
+
+
+/* ==================== Reset ==================== */
+
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+    height: 0 !important;
+    float: none !important;
+}
+
+.ovr-clear {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+}
+
+a img {
+    border: none
+}
+
+li {
+    list-style: none;
+}
+
+ol li {
+    list-style: decimal inside;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+-webkit-appearance: none;
+border-radius: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+/* ==================== Fonts ==================== */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 60px 0 0 0;
+    line-height: 1;
+    background-color: #19163f;
+    background-image: url(../images/pattern-bgr-blue.jpg);
+    background-repeat: repeat;
+    background-size: 1500px;
+}
+
+.blue-text {
+    color: #1b94c7;
+}
+
+.purple-text {
+	color: #987cf5;
+	text-decoration: underline;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.green-text {
+    color: #6bba7f;
+}
+
+.text-align-l {
+    text-align: left;
+}
+
+.text-align-r {
+    text-align: right !important;
+}
+
